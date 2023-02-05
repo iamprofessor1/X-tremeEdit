@@ -18,11 +18,9 @@ X-tremeEdit is an online photo editor designed for everyday users. With features
 4. Download your edited image or share it with friends and family
 
 ## Tech Stack
-- Javacript
-- CSS
 - HTML
+- CSS
+- Javacript
 
 ## Contributing
 Contributions are always welcome! If you have any ideas or suggestions, feel free to open an issue or a pull request.
-
-
