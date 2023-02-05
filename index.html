@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> X-tremeEdit</title>
+    <!-- link stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Linking the two library -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css">
+    <!-- link font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Add favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
+
+<body>
+    <!-- Initially button are disabled  -->
+
+    <div class="container disable">
+        <h2><img src="favicon_io/favicon-32x32.png"><strong>X</strong>-tremeEdit</h2>
+
+        <!-- This contain all the elements of  editor  -->
+        <div class="wrapper">
+            <!-- This contain all the filter applied to image  -->
+            <div class="editor-panel">
+                <div class="filter">
+                    <label class="title">Filters</label>
+                    <!-- Now give four buttons for user -->
+                    <div class="options">
+                        <!-- Active because you want first button to active is brighness -->
+                        <button id="brightness" class="active">Brightness</button>
+                        <button id="saturation">Saturation</button>
+                        <button id="inversion">Inversion</button>
+                        <button id="grayscale">GrayScale</button>
+                    </div>
+                    <!-- for sliding -->
+                    <div class="slider">
+                        <div class="filter-info">
+                            <!-- we have two info brighness and percentage -->
+                            <p class="name">Brightness</p>
+                            <p class="value">100%</p>
+                        </div>
+                        <input type="range" value="100" min="0" max="200">
+                    </div>
+                </div>
+                <!-- Lets now create a roate and flip section -->
+                <div class="rotate">
+                    <label class="title">Rotate & flip</label>
+                    <div class="options">
+                        <button id="left"><i class="fa-solid fa-rotate-left"></i></button>
+                        <button id="right"><i class="fa-solid fa-rotate-right"></i></button>
+                        <button id="horizontal"><i class="bx bx-reflect-vertical"></i></button>
+                        <button id="vertical"><i class="bx bx-reflect-horizontal"></i></button>
+
+                    </div>
+                </div>
+            </div>
+            <!-- add place holder image -->
+            <div class="preview-img">
+                <!-- <img src="icons8-upload.gif" alt="preview-img"> -->
+                <img src="image/default-image.jpg" alt="preview-img">
+            </div>
+        </div>
+        <!-- control -->
+        <div class="controls">
+            <!-- <button class="reset-filter">Reset Filters</button> -->
+            <button class="reset-filter"><img src="image/reset-image.png"></button>
+            <div class="row">
+                <input type="file" class="file-input" accept="image/*" hidden>
+                <!-- <button class="choose-img">Choose Image <img src="image/upload-image.png"></button> -->
+                <button class="choose-img"> <img src="image/upload-image.png"></button>
+                <!-- <button class="download-img">Download image</button> -->
+                <button class="download-img"><img src="image/download-image.png"></button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
