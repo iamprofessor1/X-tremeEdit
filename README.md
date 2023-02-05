@@ -1,8 +1,38 @@
-# X-tremeEdit
+<br/>
+<p align="center">
+  <a href="https://github.com/iamprofessor1/WatchX.ai">
+    <img src="https://github.com/iamprofessor1/X-tremeEdit/blob/main/favicon_io/android-chrome-192x192.png" alt="Logo" width="80" height="80">
+  </a>
 
-X-tremeEdit is an online photo editor designed for everyday users. With features such as brightness adjustment, saturation control, inversion, grayscale, rotation, and flip, X-tremeEdit makes it easy to enhance and personalize your photos. And with the ability to download your edited images, sharing your creations with friends and family has never been easier. X-tremeEdit is the perfect solution for anyone looking to elevate their day-to-day photo editing.
+  <h1 align="center">
+<a href="https://x-treme-edit.vercel.app/" target = "_blank">X-tremeEdit</a>
+</h1>
+
+  <p align="center">
+    Build with ❤️ by <b><a href="https://www.linkedin.com/in/vikas-pandit/">VIKAS PANDEY</a></b>
+    <br/>
+    <br/>
+    <a href="https://github.com/iamprofessor1/X-tremeEdit/blob/main/README.md"><strong>Explore the docs »</strong></a>
+    <br/>
+    <br/>
+    <a href="https://x-treme-edit.vercel.app/">View Demo</a>
+    .
+    <a href="https://github.com/iamprofessor1/WatchX.ai/issues">Report Bug</a>
+    .
+    <a href="https://github.com/iamprofessor1/WatchX.ai/issues">Request Feature</a>
+  </p>
+
+</p>
+
+
+
+<br>
+<br>
+
 
 ## Table of Contents
+
+- [About the Project](#about-the-project)
 - [Features](#features)
 - [How to Use](#how-to-use)
 - [Tech Stack](#tech-stack)
@@ -12,6 +42,12 @@ X-tremeEdit is an online photo editor designed for everyday users. With features
     - [style](#style)
     - [script](#script)
 - [Contributing](#contributing)
+- [Need Help](#Need-Help)
+
+
+## About The Project
+
+X-tremeEdit is an online photo editor designed for everyday users. With features such as brightness adjustment, saturation control, inversion, grayscale, rotation, and flip, X-tremeEdit makes it easy to enhance and personalize your photos. And with the ability to download your edited images, sharing your creations with friends and family has never been easier. X-tremeEdit is the perfect solution for anyone looking to elevate their day-to-day photo editing.
 
 ## Features
 - Brightness adjustment
@@ -61,3 +97,22 @@ The code defines a web page for applying filters to an image. It uses JavaScript
 
 ## Contributing
 Contributions are always welcome! If you have any ideas or suggestions, feel free to open an issue or a pull request.
+
+## Need-Help
+  
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vikas-pandit/)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vikaspandey1206@gmail.com)
+
+---------
+
+```javascript
+
+if (youEnjoyed) {
+    starThisRepository();
+}
+
+```
+
+-----------
+
+
