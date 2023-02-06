@@ -1,6 +1,6 @@
 <br/>
 <p align="center">
-  <a href="https://github.com/iamprofessor1/WatchX.ai">
+  <a href="https://github.com/iamprofessor1/X-tremeEdit">
     <img src="https://github.com/iamprofessor1/X-tremeEdit/blob/main/favicon_io/android-chrome-192x192.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -17,9 +17,9 @@
     <br/>
     <a href="https://x-treme-edit.vercel.app/">View Demo</a>
     .
-    <a href="https://github.com/iamprofessor1/WatchX.ai/issues">Report Bug</a>
+    <a href="https://github.com/iamprofessor1/X-tremeEdit/issues">Report Bug</a>
     .
-    <a href="https://github.com/iamprofessor1/WatchX.ai/issues">Request Feature</a>
+    <a href="https://github.com/iamprofessor1/X-tremeEdit/issues">Request Feature</a>
   </p>
 
 </p>
