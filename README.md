@@ -42,7 +42,7 @@
     - [style](#style)
     - [script](#script)
 - [Contributing](#contributing)
-- [Need Help](#Need-Help)
+- [Need Help](#need-help)
 
 
 ## About The Project
@@ -98,7 +98,7 @@ The code defines a web page for applying filters to an image. It uses JavaScript
 ## Contributing
 Contributions are always welcome! If you have any ideas or suggestions, feel free to open an issue or a pull request.
 
-## Need-Help
+## Need Help
   
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vikas-pandit/)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vikaspandey1206@gmail.com)
