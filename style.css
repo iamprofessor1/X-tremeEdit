@@ -1,5 +1,7 @@
+/* Importing Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
+/* Resetting default styles and applying font */
 * {
     margin: 0;
     padding: 0;
@@ -7,16 +9,17 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/* Styling for the entire page */
 body {
     display: flex;
     padding: 10px;
     min-height: 100vh;
     align-items: center;
     justify-content: center;
-
     background-color: #b4c5e4;
 }
 
+/* Styling for the main container */
 .container {
     width: 850px;
     padding: 30px 35px 35px;
@@ -25,6 +28,7 @@ body {
     box-shadow: 0px 10px 20px rgba(0, 0, 0, .1);
 }
 
+/* Disabling elements when container is disabled */
 .container.disable .editor-panel,
 .container.container.disable .controls .reset-filter,
 .container.disable .controls .download-img {
@@ -32,18 +36,21 @@ body {
     pointer-events: none;
 }
 
+/* Header styling */
 .container h2 {
     margin-top: -8px;
     font-size: 22px;
     font-weight: 500;
 }
 
+/* Wrapper for editor and preview */
 .container .wrapper {
     display: flex;
     margin: 20px 0px;
     min-height: 335px;
 }
 
+/* Styling for the editor panel */
 .wrapper .editor-panel {
     padding: 15px 20px;
     width: 280px;
@@ -51,12 +58,14 @@ body {
     border: 1px solid #ccc;
 }
 
+/* Title styling within editor panel */
 .editor-panel .title {
     display: block;
     font-size: 16px;
     justify-content: center;
 }
 
+/* Styling for filter options and controls */
 .editor-panel .options,
 .controls {
     display: flex;
@@ -64,6 +73,7 @@ body {
     justify-content: space-between;
 }
 
+/* Styling for filter buttons */
 .editor-panel button {
     outline: none;
     height: 40px;
@@ -75,25 +85,30 @@ body {
     border: 1px solid #aaa;
 }
 
+/* Styling for specific filter buttons */
 .editor-panel .filter button {
     width: calc(100%/2 - 4px);
 }
 
+/* Hover effect for buttons */
 .editor-panel button:hover {
     background: #f5f5f5;
     cursor: pointer;
 }
 
+/* Styling for active filter button */
 .filter button.active {
     color: #fff;
     border-color: #5372f0;
     background: #5372F0;
 }
 
+/* Styling for the filter slider */
 .filter .slider {
     margin-top: 12px;
 }
 
+/* Styling for filter value display */
 .filter .slider .filter-info {
     display: flex;
     color: #464646;
@@ -101,16 +116,19 @@ body {
     justify-content: space-between;
 }
 
+/* Styling for the filter slider input */
 .filter .slider input {
     width: 100%;
     height: 5px;
     accent-color: #5372F0;
 }
 
+/* Styling for rotation options */
 .editor-panel .rotate {
     margin-top: 17px;
 }
 
+/* Styling for rotation buttons */
 .editor-panel .rotate button {
     display: flex;
     align-items: center;
@@ -118,17 +136,20 @@ body {
     width: calc(100%/4 - 3px);
 }
 
+/* Styling for specific rotation buttons */
 .rotate .options button:nth-child(3),
 .rotate .options button:nth-child(4) {
     font-size: 18px;
 }
 
+/* Active state styling for rotation buttons */
 .rotate .options button:active {
     color: #fff;
     background: #5372F0;
     border-color: #5372f0;
 }
 
+/* Styling for the preview image wrapper */
 .wrapper .preview-img {
     flex-grow: 1;
     display: flex;
@@ -139,6 +160,7 @@ body {
     justify-content: center;
 }
 
+/* Styling for the preview image */
 .preview-img img {
     max-width: 490px;
     max-height: 335px;
@@ -147,6 +169,7 @@ body {
     object-fit: contain;
 }
 
+/* Styling for control buttons */
 .controls button {
     padding: 11px 20px;
     font-size: 14px;
@@ -159,6 +182,7 @@ body {
     text-transform: uppercase;
 }
 
+/* Styling for reset filter button */
 .controls .reset-filter {
     color: #6C757D;
     border: 1px solid #6C757D;
@@ -166,6 +190,7 @@ body {
     border-radius: 10px;
 }
 
+/* Hover effect for reset filter button */
 .controls .reset-filter:hover {
     background: #c7cfd6;
     color: #5372F0;
@@ -173,6 +198,7 @@ body {
     border: 1px solid #5372f0;
 }
 
+/* Styling for choose image button */
 .controls .choose-img {
     background: #6C757D;
     border: 1px solid #6C757D;
@@ -180,6 +206,7 @@ body {
     border-radius: 10px;
 }
 
+/* Styling for download image button */
 .controls .download-img {
     margin-left: 5px;
     margin: 20px;
